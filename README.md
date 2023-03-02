@@ -24,6 +24,11 @@ negative balance in the account
 /api/bank/getTransactions
 This api is used to fetch the last 20 transactions of the user based on the user account
 
+The following tables are created for this application using H2 inmemory database
+BANK_ACCOUNT:This table is used to store the latest available balance for the specific account number
+BANK_TRANSACTION:This table is used to store all the transactions performed for the given bank account
+
+The tables will be loaded with data on application startup
 
 
 
